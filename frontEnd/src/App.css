@@ -1,0 +1,145 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background: url('/src/assets/img/img_background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+.home-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.info-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.product-info-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 450px;
+}
+
+/* S. CAT */
+.category-section {
+  width: 100%;
+  padding: 15px 0;
+  background: white;
+  text-align: center;
+}
+
+.category-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 18px;
+}
+
+.category-item {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.category-item:hover {
+  color: #0056b3;
+}
+
+
+.hot-sale-section {
+  width: 100%;
+  padding: 40px 0;
+  text-align: center;
+  background: white;
+}
+
+.hot-sale-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hot-sale-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hot-sale-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 220px;
+}
+
+.hot-sale-image {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+}
+
+.hot-sale-product-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.hot-sale-price {
+  font-size: 18px;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.footer {
+  width: 100%;
+  padding: 20px;
+  background: #333;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin-top: auto;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+
+@media (max-width: 768px) {
+  .navbar-brand img {
+    width: 90px; 
+    height: auto;
+  }
+  .navbar-title {
+    font-size: 14px;
+  }
+}
