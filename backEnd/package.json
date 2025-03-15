@@ -1,6 +1,9 @@
 {
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "migrate": "node src/config/migrate.js"
   },
   "devDependencies": {
     "jest": "^29.7.0",
